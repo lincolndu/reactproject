@@ -18,9 +18,9 @@ class Contact extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
-    handleSubmit(valus) {
-        console.log('Current State is: ' + JSON.stringify(valus));
-        alert('Current State is: ' + JSON.stringify(valus));
+    handleSubmit(values) {
+        console.log('Current State is: ' + JSON.stringify(values));
+        alert('Current State is: ' + JSON.stringify(values));
         // event.preventDefault();
     }
 
