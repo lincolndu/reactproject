@@ -22,8 +22,9 @@ function RenderLeader({leader}){
 const About= (props) => {
 
     const leaders = props.leaders.map(leader => {
+        // console.log(leader);
         return (
-            <Media list>
+            <Media list key={leader.id}>
                 <RenderLeader leader={leader} />
             </Media>
         );
